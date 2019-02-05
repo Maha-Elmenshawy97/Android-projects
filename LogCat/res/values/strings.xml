@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LogCat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="To">To</string>
+    <string name="Subject">Subject</string>
+    <string name="Message">Message</string>
+    <string name="Send">Send</string>
+
+</resources>

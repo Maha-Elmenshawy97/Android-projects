@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Popup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log">log</string>
+    <string name="Login">Login</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notification_template_icon_bg"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/To"
+        android:inputType="text" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:hint="@string/Subject"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/Message"
+        android:inputType="textMultiLine"
+        android:paddingBottom="300dp" />
+
+    <Button
+        android:id="@+id/Bse"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginStart="220dp"
+        android:onClick="send"
+        android:text="@string/Send" />
+</LinearLayout>
